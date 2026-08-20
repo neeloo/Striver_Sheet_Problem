@@ -7,6 +7,7 @@ public class Longest_subarray_with_Ksum {
         int k=15;
         System.out.println(longestSubarray(arr,k));
     }
+
     public static int longestSubarray(int[] nums, int k) {
 //        int maxLen = 0;
 //        int n = nums.length;
