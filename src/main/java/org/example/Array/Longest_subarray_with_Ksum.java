@@ -1,7 +1,6 @@
 package org.example.Array;
 
 import java.util.HashMap;
-
 public class Longest_subarray_with_Ksum {
     public static void main(String[] args) {
         int arr[]={10, 5, 2, 7, 1, 9};
