@@ -1,5 +1,4 @@
 package org.example.Arrays;
-
 public class Pascal_triangleI {
     public static void main(String[] args) {
         int r =4;int c=2;
