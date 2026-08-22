@@ -1,7 +1,12 @@
 package org.example.Arrays2;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class RotatedMatrix90 {
     public static void main(String[] args) {
+        int arr[][]= {{1,2,3},{4,5,6},{7,8,9}};
+        rotateMatrix(arr);
 
     }
 
@@ -25,6 +30,9 @@ public class RotatedMatrix90 {
                     l++;
                     r--;
                 }
+            }
+            for( int a[]:matrix){
+                System.out.println(Arrays.toString(a));
             }
 
 
