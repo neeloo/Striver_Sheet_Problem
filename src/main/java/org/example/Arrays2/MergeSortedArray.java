@@ -14,6 +14,7 @@ public class MergeSortedArray {
         int a2[] = {1, 7, 8, 9};
         int n = a2.length; // Number of elements in a2
 
+
         System.out.println("Before merging a1: " + Arrays.toString(a1));
         System.out.println("Before merging a2: " + Arrays.toString(a2));
 
