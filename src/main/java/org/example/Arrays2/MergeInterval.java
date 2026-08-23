@@ -26,7 +26,6 @@ public class MergeInterval {
         if (intervals == null || intervals.isEmpty()) {
             return intervals;
         }
-
         // Corrected sorting for List of Lists
         intervals.sort((a, b) -> Integer.compare(a.get(0), b.get(0)));
 
