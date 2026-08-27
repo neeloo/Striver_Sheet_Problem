@@ -14,7 +14,6 @@ public class MergeInterval {
         intervals.add(new ArrayList<>(Arrays.asList(9, 10)));
 
         System.out.println("Original Intervals: " + intervals);
-
         // Call the merge overlap method
         List<List<Integer>> mergedIntervals = mergeOverlap(intervals);
 
