@@ -6,7 +6,6 @@ import java.util.List;
 
 public class MergeInterval {
     public static void main(String[] args) {
-
         // Create an example list of intervals: [[1,3], [2,4], [6,8], [9,10]]
         List<List<Integer>> intervals = new ArrayList<>();
         intervals.add(new ArrayList<>(Arrays.asList(1, 3)));
