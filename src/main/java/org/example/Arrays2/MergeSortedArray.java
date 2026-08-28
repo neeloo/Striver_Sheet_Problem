@@ -9,7 +9,6 @@ public class MergeSortedArray {
         int a1[] = {3, 4, 5, 6, 0, 0, 0, 0};
         int m = 4; // Number of valid sorted elements in a1
 
-
         // nums2 must be fully sorted for this algorithm to work
         int a2[] = {1, 7, 8, 9};
         int n = a2.length; // Number of elements in a2
