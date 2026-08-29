@@ -6,7 +6,6 @@ public class FindDuplicate {
         System.out.println(findDuplicate(arr));
 
     }
-
         public static int findDuplicate(int[] nums) {
             for (int i = 0; i < nums.length; i++) {
                 int ind = Math.abs(nums[i]);
