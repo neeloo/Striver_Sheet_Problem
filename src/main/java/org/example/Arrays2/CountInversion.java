@@ -1,5 +1,4 @@
 package org.example.Arrays2;
-
 import java.util.ArrayList;
 
 public class CountInversion {
