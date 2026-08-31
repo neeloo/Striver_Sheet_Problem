@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class CountInverion {
     public static void main(String[] args) {
+
     int arr[] = {2, 3, 7, 1, 3, 5};
         System.out.println(numberOfInversions(arr));
     }
