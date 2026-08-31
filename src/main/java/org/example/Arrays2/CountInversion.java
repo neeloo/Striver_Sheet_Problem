@@ -37,7 +37,6 @@ public class CountInversion {
                 cnt += (mid - i) + 1;
             }
         }
-
         while (i <= mid) temp.add(nums[i++]);
         while (j <= high) temp.add(nums[j++]);
 
