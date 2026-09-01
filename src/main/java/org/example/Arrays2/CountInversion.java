@@ -20,7 +20,6 @@ public class CountInversion {
         }
         return cnt;
     }
-
     static long merge(int[] nums, int low, int mid, int high) {
         ArrayList<Integer> temp = new ArrayList<>();
         int i = low;
