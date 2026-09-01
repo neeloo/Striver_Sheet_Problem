@@ -10,7 +10,6 @@ public class CountInversion {
     public static long numberOfInversions(int[] nums) {
         return mergesort(nums, 0, nums.length - 1);
     }
-
     public static long mergesort(int[] nums, int low, int high) {
         long cnt = 0;
         if (low < high) {
