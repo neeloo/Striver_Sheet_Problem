@@ -7,7 +7,6 @@ public class CountInversion {
         int arr[] = {2, 3, 7, 1, 3, 5};
         System.out.println(numberOfInversions(arr));
     }
-
     public static long numberOfInversions(int[] nums) {
         return mergesort(nums, 0, nums.length - 1);
     }
