@@ -7,7 +7,6 @@ public class SearchInMatrix {
         System.out.println(searchMatrix(mat , k));
 
     }
-
         public static boolean searchMatrix(int[][] m, int k) {
             int row = m.length;
             int col = m[0].length;
