@@ -6,7 +6,6 @@ public class Majority1 {
         System.out.println(majorityElement(nums));
 
     }
-
     public static int majorityElement(int[] A) {
         int majority = -1;
         int frequency = 0;
