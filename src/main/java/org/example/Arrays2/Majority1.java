@@ -10,19 +10,19 @@ public class Majority1 {
         int majority = -1;
         int frequency = 0;
         int n = A.length;
-        for (int i = 0; i < n; i++) {
+        for (int a:A) {
             if (frequency == 0) {
-                majority = A[i];
+                majority = a;
                 frequency = 1;
-            } else if (A[i] == majority) {
+            } else if (a == majority) {
                 frequency++;
             } else {
                 frequency--;
             }
         }
         frequency = 0; //(reset this)
-        for (int i = 0; i < n; i++) {
-            if (A[i] == majority) {
+        for (int a:A) {
+            if (a == majority) {
                 frequency++;
             }
         }
