@@ -6,10 +6,13 @@ import java.util.List;
 
 public class Four4Sum {
     public static void main(String[] args) {
+        int nums[]={1, -2, 3, 5, 7, 9};int k = 7;
+        List<List<Integer>>list =fourSum(nums , k);
+        System.out.println(list);
 
     }
 
-        public List<List<Integer>> fourSum(int[] nums, int target) {
+        public  static List<List<Integer>> fourSum(int[] nums, int target) {
             List<List<Integer>> answer = new ArrayList<>();
             Arrays.sort(nums);
 
