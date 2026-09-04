@@ -1,10 +1,15 @@
 package org.example.Arrays3;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSumArray {
     public static void main(String[] args) {
+        int nums[]={1, 6, 2, 10, 3};int target =7;
+        int ans[]= twoSum(nums , target);
+        System.out.println(Arrays.toString(ans));
 
     }
     public static int[] twoSum(int[] nums, int target) {
@@ -17,6 +22,5 @@ public class TwoSumArray {
             map.put(nums[i] , i);
         }
         return new int[]{-1,-1};
-
     }
 }
