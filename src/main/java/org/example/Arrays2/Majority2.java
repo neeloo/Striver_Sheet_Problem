@@ -8,9 +8,7 @@ public class Majority2 {
         List<Integer>list = majorityElementTwo(arr);
         System.out.println(list);
 
-
     }
-
     public static List<Integer> majorityElementTwo(int[] nums) {
         int n = nums.length;
         int m1 = 0;
