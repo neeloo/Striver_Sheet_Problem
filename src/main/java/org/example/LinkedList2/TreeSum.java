@@ -9,21 +9,16 @@ public class TreeSum {
         System.out.println(list);
 
     }
-
     public static List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> ans = new ArrayList<>();
         int n = nums.length;
-
         for (int i = 0; i < n - 2; i++) {
             int left = i + 1;
             int right = n - 1;
-
             if (i > 0 && nums[i] == nums[i - 1]) continue;
-
             while (left < right) {
                 int sum = nums[left] + nums[right] + nums[i];
-
                 if (sum > 0) {
                     right--;
                 } else if (sum < 0) {
