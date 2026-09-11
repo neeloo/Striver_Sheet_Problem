@@ -1,0 +1,43 @@
+package org.example.LinkedList2;
+
+import java.util.*;
+
+public class TreeSum {
+    public static void main(String[] args) {
+        int nums[] = {2, -2, 0, 3, -3, 5};
+        List<List<Integer>> list = threeSum(nums);
+        System.out.println(list);
+
+    }
+
+    public static List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> ans = new ArrayList<>();
+        int n = nums.length;
+
+        for (int i = 0; i < n - 2; i++) {
+            int left = i + 1;
+            int right = n - 1;
+
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+
+            while (left < right) {
+                int sum = nums[left] + nums[right] + nums[i];
+
+                if (sum > 0) {
+                    right--;
+                } else if (sum < 0) {
+                    left++;
+                } else {
+                    ans.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                    left++;
+                    right--;
+                    while (left < right && nums[left] == nums[left - 1]) left++;
+                    while (left < right && nums[right] == nums[right + 1]) right--;
+                }
+            }
+        }
+        return ans;
+    }
+}
+
