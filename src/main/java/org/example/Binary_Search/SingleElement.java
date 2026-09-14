@@ -6,7 +6,6 @@ public class SingleElement {
         System.out.println(findSingleElement(nums));
 
     }
-
     public static int findSingleElement(int arr[]) {
         int xor = 0;
         for (int a : arr) {
