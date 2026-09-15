@@ -2,11 +2,12 @@ package org.example.Binary_Search;
 
 public class BookAllocation {
     public static void main(String[] args) {
-        int a[]={12, 34, 67, 90};
+        int a[] = {12, 34, 67, 90};
         int m = 2;
-        System.out.println(findPages(a , m));
+        System.out.println(findPages(a, m));
 
     }
+
     public static int findPages(int[] A, int B) {
         //B=studet -->just like painter int painter proble calculate min time
         if (B > A.length) return -1;
@@ -33,12 +34,12 @@ public class BookAllocation {
         return ans;
     }
 
-    public static  int countStudent(int a[], int T) {
+    public static int countStudent(int a[], int T) {
         int c = 1, t = T;
         for (int i = 0; i < a.length; i++) {
             if (a[i] > T) return Integer.MAX_VALUE;
             if (a[i] <= t) {
-                t =t- a[i];
+                t = t - a[i];
             } else {
                 c++;
                 t = T - a[i];
