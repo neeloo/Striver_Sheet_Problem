@@ -6,7 +6,6 @@ public class MediamMatrix {
     public static void main(String[] args) {
         int m[][] = {{1, 4, 9}, {2, 5, 6}, {3, 7, 8}};
         System.out.println(findMedian(m));
-
     }
     public static int findMedian(int[][] m) {
         if (m == null || m.length == 0 || m[0].length == 0) return 0;
