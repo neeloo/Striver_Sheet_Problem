@@ -8,7 +8,7 @@ public class BookAllocation {
 
     }
     public static int findPages(int[] A, int B) {
-        //B=studet -->just like painter int painter proble calculate min time
+        //B=studet -->just like painter int painter problem calculate min time
         if (B > A.length) return -1;
 
         int n = A.length;
