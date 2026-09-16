@@ -7,7 +7,6 @@ public class BookAllocation {
         System.out.println(findPages(a, m));
 
     }
-
     public static int findPages(int[] A, int B) {
         //B=studet -->just like painter int painter proble calculate min time
         if (B > A.length) return -1;
