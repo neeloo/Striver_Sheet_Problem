@@ -6,7 +6,6 @@ public class ReverseStringWord {
         // Call the manual character reversal method
         System.out.println(reverseManual(s));
     }
-
     public static String reverseManual(String s) {
         // Handle edge case if the string is empty or null
         if (s == null || s.isEmpty()) {
