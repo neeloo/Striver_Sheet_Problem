@@ -25,6 +25,7 @@ class LongestPalidrome {
         }
     }
 
+
     public static void main(String[] args) {
         String s = "babad";
         System.out.println(longestPalindrome(s));
