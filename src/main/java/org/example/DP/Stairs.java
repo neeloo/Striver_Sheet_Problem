@@ -5,6 +5,8 @@ public class Stairs {
         int n = 3; ///(1,1,1) , (1,2),(2,1)
         System.out.println(stairs(n));
 
+
+
     }
 
     public static int stairs(int n) {
