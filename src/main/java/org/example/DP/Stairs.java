@@ -10,6 +10,7 @@ public class Stairs {
     public static int stairs(int n) {
         if (n == 0 || n == 1) return 1;
         return stairs(n - 1) + stairs(n - 2);
+
     }
     public  static  int bottomUp(int n){
         if (n == 0 || n == 1) {
@@ -22,5 +23,16 @@ public class Stairs {
             dp[i] = dp[i - 1] + dp[i - 2];
         }
         return dp[n];
+
+        // int OneStep = 1;
+        // int TwoStep = 2;
+        // for (int i = 3; i <= n; i++) {
+        //     int next = OneStep + TwoStep;
+        //     //swap of OneStep to TwoStep and TwoStep into next
+        //     OneStep = TwoStep;
+        //     TwoStep = next;
+        // }
+        // return TwoStep;
     }
+
 }
