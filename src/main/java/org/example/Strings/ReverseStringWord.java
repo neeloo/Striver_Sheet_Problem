@@ -13,7 +13,6 @@ public class ReverseStringWord {
         if (s == null || s.isEmpty()) {
             return s;
         }
-
         StringBuilder res = new StringBuilder();
 
         // Start from the last index (length - 1) and move backwards to 0
