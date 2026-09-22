@@ -2,6 +2,7 @@ package org.example.Strings;
 
 
 public class ReverseStringWord {
+
     public static void main(String[] args) {
         String s = "the sky is blue";
         // Call the manual character reversal method
