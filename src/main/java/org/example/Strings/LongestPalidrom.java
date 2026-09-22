@@ -3,7 +3,6 @@ package org.example.Strings;
 class LongestPalidrome {
    public static int maxlen = 0;
     public  static int len = 0;
-
     public static String longestPalindrome(String s) {
         int n = s.length();
         if (n < 2)
