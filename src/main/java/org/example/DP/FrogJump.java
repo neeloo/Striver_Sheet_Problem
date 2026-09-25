@@ -17,17 +17,14 @@ class FrogJump {
         // stair(0-based index)
         if (n == 0)
             return 0;
-
         // If there are only 2 stairs(0-based
         // index), then frog can only take
         // jump of size one
         if (n == 1)
-            return abs(height[n] - height[n - 1]);
+            return Math.abs(height[n] - height[n - 1]);
 
-        return min(minCostRec(n -1, height)
-                        + abs(height[n] - height[n - 1]),
-                minCostRec(n - 2, height)
-                        + abs(height[n] - height[n - 2]));
+        return Math.min(minCostRec(n -1, height)+ Math.abs(height[n] - height[n - 1]),
+                minCostRec(n - 2, height) + Math.abs(height[n] - height[n - 2]));
     }
     public static int minCostMemo(int n, int[] heights, int dp[]) {
         if (n == 0) return 0;
