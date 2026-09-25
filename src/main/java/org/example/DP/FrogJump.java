@@ -7,11 +7,9 @@ class FrogJump {
         int n = heights.length;
         int dp[] = new int[heights.length + 1];
         Arrays.fill(dp, -1);
-
         return minCostMemo(n - 1, heights, dp);
 
     }
-
     public static int minCostMemo(int n, int[] heights, int dp[]) {
         if (n == 0) return 0;
         // If there are only 2 stairs(0-based
