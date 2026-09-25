@@ -9,23 +9,27 @@ class FrogJump {
         Arrays.fill(dp, -1);
         return minCostMemo(n - 1, heights, dp);
 
+       // return minCostRec(n , heights);
+
     }
 
-   public static int minCostRec(int n, int[] height) {
+//   public static int minCostRec(int n, int[] height) {
+//
+//        // If there is only one
+//        // stair(0-based index)
+//        if (n == 0)
+//            return 0;
+//        // If there are only 2 stairs(0-based
+//        // index), then frog can only take
+//        // jump of size one
+//        if (n == 1)
+//            return Math.abs(height[n] - height[n - 1]);
+//
+//        return Math.min(minCostRec(n -1, height)+ Math.abs(height[n] - height[n - 1]),
+//                minCostRec(n - 2, height) + Math.abs(height[n] - height[n - 2]));
+//    }
 
-        // If there is only one
-        // stair(0-based index)
-        if (n == 0)
-            return 0;
-        // If there are only 2 stairs(0-based
-        // index), then frog can only take
-        // jump of size one
-        if (n == 1)
-            return Math.abs(height[n] - height[n - 1]);
 
-        return Math.min(minCostRec(n -1, height)+ Math.abs(height[n] - height[n - 1]),
-                minCostRec(n - 2, height) + Math.abs(height[n] - height[n - 2]));
-    }
     public static int minCostMemo(int n, int[] heights, int dp[]) {
         if (n == 0) return 0;
         // If there are only 2 stairs(0-based
