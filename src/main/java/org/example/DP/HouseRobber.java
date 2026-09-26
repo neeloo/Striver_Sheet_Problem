@@ -39,3 +39,33 @@ class HouseRobber {
         return memo[i];
     }
 }
+
+/*
+class Solution {
+    public int houseRobber(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        if (nums.length == 1) return nums[0];
+        if (nums.length == 2) return Math.max(nums[0], nums[1]);
+
+        // Scenario 1: Rob from house 0 to n-2 (exclude last)
+        int max1 = robRecursive(nums, nums.length - 2, 0);
+
+        // Scenario 2: Rob from house 1 to n-1 (exclude first)
+        int max2 = robRecursive(nums, nums.length - 1, 1);
+
+        return Math.max(max1, max2);
+    }
+
+    private int robRecursive(int[] nums, int i, int start) {
+        // Base case: out of bounds
+        if (i < start) return 0;
+
+        // Choose between robbing house 'i' or skipping it
+        int robCurrent = nums[i] + robRecursive(nums, i - 2, start);
+        int skipCurrent = robRecursive(nums, i - 1, start);
+
+        return Math.max(robCurrent, skipCurrent);
+    }
+}
+
+ */
