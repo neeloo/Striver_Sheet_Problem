@@ -28,10 +28,8 @@ class HouseRobber {
         if (memo[i] != -1) return memo[i];
         // Choice 1: Rob current house 'i' + rob from house 'i-2'
         int robCurrent = nums[i] + robMemo(nums, i - 2, start, memo);
-
         // Choice 2: Skip current house 'i' + rob from house 'i-1'
         int skipCurrent = robMemo(nums, i - 1, start, memo);
-
         // Cache and return the maximum of both choices
         memo[i] = Math.max(robCurrent, skipCurrent);
         return memo[i];
