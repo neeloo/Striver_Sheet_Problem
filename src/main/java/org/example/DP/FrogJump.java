@@ -9,12 +9,12 @@ class FrogJump {
         Arrays.fill(dp, -1);
         return minCostMemo(n - 1, heights, dp);
 
-       // return minCostRec(n , heights);
+        // return minCostRec(n , heights);
 
     }
 
 
-//    In this approach, we observe that to reach the nth stair,
+    //    In this approach, we observe that to reach the nth stair,
 //    one can come either from the (n−1)th or (n−2)th stair. So,
 //    in order to compute the minimum cost to reach the nth stair,
 //    we must know the minimum cost to reach the (n−1)th and (n−2)th stairs.
