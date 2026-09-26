@@ -3,16 +3,19 @@ package org.example.DP;
 import java.util.Arrays;
 
 class HouseRobber {
-    public int houseRobber(int[] nums) {
+
+    public static void main(String[] args) {
+        int nums[]={2, 1, 4, 9};
+        System.out.println(houseRobber(nums));
+    }
+    public static int houseRobber(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         if (nums.length == 1) return nums[0];
         if (nums.length == 2) return Math.max(nums[0], nums[1]);
-
         // Scenario 1: Rob from house 0 to n-2 (exclude last)
         int[] memo1 = new int[nums.length];
         Arrays.fill(memo1, -1);
         int max1 = robMemo(nums, nums.length - 2, 0, memo1);
-
         // Scenario 2: Rob from house 1 to n-1 (exclude first)
         int[] memo2 = new int[nums.length];
         Arrays.fill(memo2, -1);
@@ -21,7 +24,7 @@ class HouseRobber {
         return Math.max(max1, max2);
     }
 
-    private int robMemo(int[] nums, int i, int start, int[] memo) {
+    private  static int robMemo(int[] nums, int i, int start, int[] memo) {
         // Base case: If we pass the starting house boundary
         if (i < start) return 0;
         // Return cached result if already calculated
