@@ -7,6 +7,7 @@ class HouseRobber {
     public static void main(String[] args) {
         int nums[]={2, 1, 4, 9};
         System.out.println(houseRobber(nums));
+
     }
     public static int houseRobber(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
