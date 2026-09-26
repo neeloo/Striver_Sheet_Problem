@@ -13,6 +13,14 @@ class FrogJump {
 
     }
 
+
+//    In this approach, we observe that to reach the nth stair,
+//    one can come either from the (n−1)th or (n−2)th stair. So,
+//    in order to compute the minimum cost to reach the nth stair,
+//    we must know the minimum cost to reach the (n−1)th and (n−2)th stairs.
+//    Similarly, in order to compute the minimum cost to reach the (n-1)th stair,
+//    we must know the minimum cost to reach the (n−2)th and (n−3)th stairs.
+//    This way we can observe that this can be done using recursion.
 //   public static int minCostRec(int n, int[] height) {
 //
 //        // If there is only one
@@ -28,8 +36,6 @@ class FrogJump {
 //        return Math.min(minCostRec(n -1, height)+ Math.abs(height[n] - height[n - 1]),
 //                minCostRec(n - 2, height) + Math.abs(height[n] - height[n - 2]));
 //    }
-
-
     public static int minCostMemo(int n, int[] heights, int dp[]) {
         if (n == 0) return 0;
         // If there are only 2 stairs(0-based
