@@ -5,10 +5,11 @@ import java.util.Arrays;
 class HouseRobber {
 
     public static void main(String[] args) {
-        int nums[]={2, 1, 4, 9};
+        int nums[] = {2, 1, 4, 9};
         System.out.println(houseRobber(nums));
 
     }
+
     public static int houseRobber(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         if (nums.length == 1) return nums[0];
@@ -25,7 +26,7 @@ class HouseRobber {
         return Math.max(max1, max2);
     }
 
-    private  static int robMemo(int[] nums, int i, int start, int[] memo) {
+    private static int robMemo(int[] nums, int i, int start, int[] memo) {
         // Base case: If we pass the starting house boundary
         if (i < start) return 0;
         // Return cached result if already calculated
