@@ -24,10 +24,8 @@ class HouseRobber {
     private int robMemo(int[] nums, int i, int start, int[] memo) {
         // Base case: If we pass the starting house boundary
         if (i < start) return 0;
-
         // Return cached result if already calculated
         if (memo[i] != -1) return memo[i];
-
         // Choice 1: Rob current house 'i' + rob from house 'i-2'
         int robCurrent = nums[i] + robMemo(nums, i - 2, start, memo);
 
