@@ -7,12 +7,14 @@ public class Stairs {
         System.out.println(bottomUp(n));
 
     }
+
     public static int stairs(int n) {
         if (n == 0 || n == 1) return 1;
         return stairs(n - 1) + stairs(n - 2);
 
     }
-    public  static  int bottomUp(int n){
+
+    public static int bottomUp(int n) {
         if (n == 0 || n == 1) {
             return n;
         }
