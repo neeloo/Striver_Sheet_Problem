@@ -11,13 +11,13 @@ public class NearestSmallestnRight {
     }
 
     private static int[] nearestSmallestright(int[] num) {
-        int ans[]= new int[num.length];
-        Stack<Integer>st= new Stack<>();
-        for( int i = num.length-1;i>=0;i--){
-            while(!st.isEmpty() && st.peek()>= num[i]){
+        int ans[] = new int[num.length];
+        Stack<Integer> st = new Stack<>();
+        for (int i = num.length - 1; i >= 0; i--) {
+            while (!st.isEmpty() && st.peek() >= num[i]) {
                 st.pop();
             }
-            ans[i]= st.isEmpty()?-1:st.peek();
+            ans[i] = st.isEmpty() ? -1 : st.peek();
             st.push(num[i]);
         }
         return ans;
