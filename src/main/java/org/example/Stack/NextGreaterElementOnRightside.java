@@ -10,7 +10,6 @@ public class NextGreaterElementOnRightside {
         System.out.println(Arrays.toString(ans));
 
     }
-
     public static int[] nextGreater(int num[]) {
         int n = num.length;
         int ans[] = new int[n];
