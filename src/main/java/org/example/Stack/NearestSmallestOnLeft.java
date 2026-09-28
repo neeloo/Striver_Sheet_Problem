@@ -11,13 +11,13 @@ public class NearestSmallestOnLeft {
     }
 
     private static int[] nearestSmallest(int[] num) {
-        Stack<Integer>st =  new Stack<>();
-        int ans[]= new int[num.length];
-        for( int i =0;i<num.length;i++){
-            while(!st.isEmpty() && st.peek()>= num[i]){
+        Stack<Integer> st = new Stack<>();
+        int ans[] = new int[num.length];
+        for (int i = 0; i < num.length; i++) {
+            while (!st.isEmpty() && st.peek() >= num[i]) {
                 st.pop();
             }
-            ans[i]= st.isEmpty()?-1:st.peek();
+            ans[i] = st.isEmpty() ? -1 : st.peek();
             st.push(num[i]);
         }
         return ans;
