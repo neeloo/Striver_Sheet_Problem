@@ -3,7 +3,7 @@ package org.example.Stack;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class NextGreaterElement {
+public class NextGreaterElementOnRightside {
     public static void main(String[] args) {
         int num[]={4, 5, 2, 10};
         int ans[]= nextGreater(num);
