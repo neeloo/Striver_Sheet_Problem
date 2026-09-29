@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class ParathesisString {
     public static void main(String[] args) {
+        String s = "";
 
     }
     public  static  int  pararhesis(String s){
