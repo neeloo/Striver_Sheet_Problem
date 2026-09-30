@@ -7,8 +7,9 @@ public class ParathesisString {
         String s = "";
 
     }
-    public  static  int  pararhesis(String s){
-        Stack<Character>st = new Stack<>();
+
+    public static int pararhesis(String s) {
+        Stack<Character> st = new Stack<>();
         return 1;
     }
 }
