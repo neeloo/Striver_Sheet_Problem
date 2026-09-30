@@ -9,5 +9,6 @@ public class ParathesisString {
     }
     public  static  int  pararhesis(String s){
         Stack<Character>st = new Stack<>();
+        return 1;
     }
 }
