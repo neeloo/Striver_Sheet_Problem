@@ -7,7 +7,6 @@ public class RemoveDuplicate {
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
-
     }
     public static int removeDuplicates(int[] arr) {
         int j = 0;
