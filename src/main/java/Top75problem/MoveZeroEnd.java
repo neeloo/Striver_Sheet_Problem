@@ -12,7 +12,6 @@ public class MoveZeroEnd {
     }
 
     public static void moveZeroes(int[] arr) {
-
         int j = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
