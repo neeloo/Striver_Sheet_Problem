@@ -9,7 +9,6 @@ public class MoveZeroEnd {
         for (int num : arr) {
             System.out.print(num + " ");
         }
-
     }
 
     public static void moveZeroes(int[] arr) {
