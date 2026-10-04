@@ -1,6 +1,8 @@
 package Top75problem;
 
 public class LeftRotationByone {
-    psvm
+    public static void main(String[] args) {
+
+    }
 
 }
