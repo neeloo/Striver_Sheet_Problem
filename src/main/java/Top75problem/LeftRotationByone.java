@@ -2,6 +2,9 @@ package Top75problem;
 
 public class LeftRotationByone {
     public static void main(String[] args) {
+        int nums[]={1,2,3,4,5};
+        int ans[]= left(nums  ,3);
+        System.out.println();
 
     }
     public  static  int[]  left(int nums[] , int k)
