@@ -8,7 +8,6 @@ public class LeftRotationByone {
         int nums[]={1,2,3,4,5}; ///3]	First 3 elements move to the back
         int ans[]= leftRotate(nums  ,3);
         System.out.println(Arrays.toString(ans));
-
     }
     public static int[] leftRotate(int[] nums, int k) {
         int n = nums.length;
