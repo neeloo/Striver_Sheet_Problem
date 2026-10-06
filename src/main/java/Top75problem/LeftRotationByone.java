@@ -3,6 +3,7 @@ package Top75problem;
 import java.util.Arrays;
 
 public class LeftRotationByone {
+
     public static void main(String[] args) {
         int nums[]={1,2,3,4,5}; ///3]	First 3 elements move to the back
         int ans[]= leftRotate(nums  ,3);
