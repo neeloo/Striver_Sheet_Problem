@@ -12,7 +12,6 @@ public class LeftRotationByone {
     }
     public static int[] leftRotate(int[] nums, int k) {
         int n = nums.length;
-
         k = k % n; // Handles cases where k is greater than array length
 
         reverse(nums, 0, k - 1); // Step 1: Reverse first k elements
