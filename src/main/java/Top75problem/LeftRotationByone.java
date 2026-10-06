@@ -18,7 +18,6 @@ public class LeftRotationByone {
         reverse(nums, 0, n - 1); // Step 3: Reverse the whole array
         return nums;
     }
-
     private static void reverse(int[] nums, int l, int r) {
         while (l < r) {
             int temp = nums[l];
