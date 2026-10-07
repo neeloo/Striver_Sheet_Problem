@@ -2,14 +2,18 @@ package Top75problem;
 
 public class MissingNumber {
     public static void main(String[] args) {
-        int nums[] ={1, 2, 4, 5 ,6};
+        int nums[] = {1, 2, 4,5, 6};
         System.out.println(missingNumber(nums));
-
     }
-    public  static int missingNumber(int nums[]){
-        int n =nums.length;
-        System.out.println(n);
-        return 0;
+
+    public static int missingNumber(int nums[]) {
+        int n = nums.length+1;
+        int naturalSum = (n * (n + 1)) / 2;
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        return naturalSum - sum;
     }
 
 }
