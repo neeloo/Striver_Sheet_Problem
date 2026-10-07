@@ -19,9 +19,10 @@ public class MissingNumber {
         for( int num :nums){
             xor ^= num;
         }
-        System.out.println(xor);
+        System.out.println("xor all number present in array:"+xor);
         for( int i =1;i<= n;i++){
             xor ^= i;
+            System.out.println("xor of each number:"+ xor);
         }
         return xor;
     }
