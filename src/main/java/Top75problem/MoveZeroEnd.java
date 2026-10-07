@@ -1,6 +1,5 @@
 package Top75problem;
 
-import java.util.Arrays;
 public class MoveZeroEnd {
     public static void main(String[] args) {
         int[] arr = {0, 1, 0, 3, 12};
