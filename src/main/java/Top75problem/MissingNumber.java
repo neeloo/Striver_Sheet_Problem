@@ -8,12 +8,22 @@ public class MissingNumber {
 
     public static int missingNumber(int nums[]) {
         int n = nums.length+1;
-        int naturalSum = (n * (n + 1)) / 2;
-        int sum = 0;
-        for (int num : nums) {
-            sum += num;
+//        int naturalSum = (n * (n + 1)) / 2;
+//        int sum = 0;
+//        for (int num : nums) {
+//            sum += num;
+//        }
+//        return naturalSum - sum;
+
+        int xor =0;
+        for( int num :nums){
+            xor ^= num;
         }
-        return naturalSum - sum;
+        System.out.println(xor);
+        for( int i =1;i<= n;i++){
+            xor ^= i;
+        }
+        return xor;
     }
 
 }
