@@ -5,6 +5,7 @@ public class FindNumberAppearingOnce {
     int nums[]={4, 1, 2, 1, 2};
         System.out.println(findNumber(nums));
     }
+
     private static int  findNumber(int[] nums) {
         int xor =0;
         for( int num : nums){
