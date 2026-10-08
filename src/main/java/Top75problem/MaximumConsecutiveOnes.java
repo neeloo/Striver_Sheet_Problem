@@ -2,6 +2,9 @@ package Top75problem;
 
 public class MaximumConsecutiveOnes {
     public static void main(String[] args) {
+        int[] nums = {1, 1, 0, 1, 1, 1};
+        System.out.println("Maximum consecutive 1s: " + findMaxConsecutiveOnes(nums));
+        // Output: 3
 
     }
     public static int findMaxConsecutiveOnes(int[] nums) {
