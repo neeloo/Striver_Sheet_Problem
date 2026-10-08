@@ -14,7 +14,6 @@ public class MissingNumber {
 //            sum += num;
 //        }
 //        return naturalSum - sum;
-
         int xor =0;
         for( int num :nums){
             xor ^= num;
