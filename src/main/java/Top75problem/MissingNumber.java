@@ -24,6 +24,7 @@ public class MissingNumber {
             System.out.println("xor of each number:"+ xor);
         }
         return xor;
+
     }
 
 }
