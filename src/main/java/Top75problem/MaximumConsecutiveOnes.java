@@ -7,6 +7,7 @@ public class MaximumConsecutiveOnes {
         // Output: 3
 
     }
+
     public static int findMaxConsecutiveOnes(int[] nums) {
         int maxCount = 0;
         int currentCount = 0;
@@ -14,9 +15,10 @@ public class MaximumConsecutiveOnes {
             if (num == 1) {
                 currentCount++;
                 // Dynamically update the maximum streak found so far
-                if (currentCount > maxCount) {
-                    maxCount = currentCount;
-                }
+//                if (currentCount > maxCount) {
+//                    maxCount = currentCount;
+//                }
+                maxCount = Math.max(maxCount, currentCount);
             } else {
                 // Reset the streak counter when encountering a 0
                 currentCount = 0;
