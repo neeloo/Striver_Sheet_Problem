@@ -5,7 +5,6 @@ public class MissingNumber {
         int nums[] = {1, 2, 4,5, 6};
         System.out.println(missingNumber(nums));
     }
-
     public static int missingNumber(int nums[]) {
         int n = nums.length+1;
 //        int naturalSum = (n * (n + 1)) / 2;
