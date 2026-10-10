@@ -5,7 +5,6 @@ public class BestTimetoBuyandSellStock {
         int nums[]={7, 1, 5, 3, 6, 4};
         System.out.println(bestTime(nums));
     }
-
     private static int bestTime(int[] nums) {
 
         if (nums == null || nums.length == 0) return 0;
@@ -23,7 +22,6 @@ public class BestTimetoBuyandSellStock {
 //            }
 //        }
 //        return profit;
-
 
         int profit = 0;
         int minProfit = nums[0];
