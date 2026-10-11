@@ -7,6 +7,7 @@ public class LargestNumber {
         System.out.println(largestNumber(nums));
 
     }
+
     public static int largestNumber( int nums[]){
         int largest = nums[0];
         for( int x :nums){
