@@ -7,6 +7,7 @@ public class LargestNumber {
     }
 
     public static int largestNumber( int nums[]){
+
         int largest = nums[0];
         for( int x :nums){
             largest = Math.max(largest , x);
