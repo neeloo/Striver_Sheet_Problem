@@ -18,6 +18,7 @@ public class LeftRotationByone {
         return nums;
     }
 
+
     private static void reverse(int[] nums, int l, int r) {
         while (l < r) {
             int temp = nums[l];
