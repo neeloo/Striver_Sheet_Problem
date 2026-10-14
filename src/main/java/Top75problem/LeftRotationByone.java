@@ -7,6 +7,7 @@ public class LeftRotationByone {
         int ans[]= leftRotate(nums  ,3);
         System.out.println(Arrays.toString(ans));
     }
+
     public static int[] leftRotate(int[] nums, int k) {
         int n = nums.length;
         k = k % n; // Handles cases where k is greater than array length
