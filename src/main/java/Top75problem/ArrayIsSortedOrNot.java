@@ -11,7 +11,6 @@ public class ArrayIsSortedOrNot {
                 return false;
             }
         }
-
         return true;
     }
 }
