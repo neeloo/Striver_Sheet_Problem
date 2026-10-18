@@ -7,7 +7,6 @@ public class rotatedSearch {
         int arr[]={1,2,3,4,5,9,8,7,6};
         System.out.println(rotatedArray(arr , 9));
 
-
     }
 
     private static int rotatedArray(int[] arr, int i) {
