@@ -1,23 +1,43 @@
 package Top75problem.BinarySearch;
 
-import java.sql.SQLOutput;
-
 public class rotatedSearch {
     public static void main(String[] args) {
-        int arr[]={1,2,3,4,5,9,8,7,6};
-        System.out.println(rotatedArray(arr , 9));
-
+        // Standard Rotated Sorted Array
+        int arr[] = {6, 7, 8, 9, 1, 2, 3, 4, 5};
+        System.out.println("Index of target: " + rotatedArray(arr, 9)); // Should print 3
     }
-    private static int rotatedArray(int[] arr, int i) {
+
+    private static int rotatedArray(int[] arr, int target) {
         int l = 0;
         int r = arr.length - 1;
-        while (l <= r) {
-            int mid = l + r / 2;
-            if (arr[mid] == i) return mid;
 
-            if (arr[l] < arr[mid]){
+        while (l <= r) { // Changed to <= to check single-element windows
+            int mid = l + (r - l) / 2;
+
+            if (arr[mid] == target) {
+                return mid;
+            }
+
+            // Check if the left side is sorted
+            if (arr[l] <= arr[mid]) {
+                // Check if target lies within the sorted left side
+                if (target >= arr[l] && target < arr[mid]) {
+                    r = mid - 1;
+                } else {
+                    l = mid + 1;
+                }
+            }
+            // Otherwise, the right side must be sorted
+            else {
+                // Check if target lies within the sorted right side
+                if (target > arr[mid] && target <= arr[r]) {
+                    l = mid + 1;
+                } else {
+                    r = mid - 1;
+                }
+            }
+            // Removed l++ and r-- from here because mid-shifting handles pointers
         }
-    }
-        return -1;
+        return -1; // Fixed string compilation error
     }
 }
