@@ -9,6 +9,8 @@ public class rotatedSearch {
 
     }
     private static int rotatedArray(int[] arr, int i) {
+        int  l =0;
+        int r = arr.length-1;
         return -1;
     }
 }
