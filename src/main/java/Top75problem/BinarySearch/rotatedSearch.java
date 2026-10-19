@@ -8,7 +8,6 @@ public class rotatedSearch {
         System.out.println(rotatedArray(arr , 9));
 
     }
-
     private static int rotatedArray(int[] arr, int i) {
         return -1;
     }
