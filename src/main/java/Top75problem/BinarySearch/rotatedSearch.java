@@ -36,8 +36,8 @@ public class rotatedSearch {
                     r = mid - 1;
                 }
             }
-            // Removed l++ and r-- from here because mid-shifting handles pointers
+
         }
-        return -1; // Fixed string compilation error
+        return -1;
     }
 }
