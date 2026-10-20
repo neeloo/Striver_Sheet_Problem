@@ -3,7 +3,7 @@ public class FindPeakEle {
     public static void main(String[] args) {
         int arr[]={1,2,3,1};
         System.out.println(findPeakElement(arr));
-        
+
     }
     public static int findPeakElement(int[] arr) {
         int n = arr.length;
@@ -19,6 +19,7 @@ public class FindPeakEle {
                 l = m + 1;
             }
         }
+
         return 1;
 
     }
