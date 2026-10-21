@@ -34,7 +34,6 @@ public class rotatedSearch {
                     r = mid - 1;
                 }
             }
-
         }
         return -1;
     }
