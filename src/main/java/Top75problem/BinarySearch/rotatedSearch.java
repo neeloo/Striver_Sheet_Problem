@@ -7,7 +7,6 @@ public class rotatedSearch {
         int target = 9;
         System.out.println("Index of target: " + rotatedArray(arr, target)); // Should print 3
     }
-
     private static int rotatedArray(int[] arr, int target) {
         int l = 0;
         int r = arr.length - 1;
