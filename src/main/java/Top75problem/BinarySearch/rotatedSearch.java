@@ -17,7 +17,6 @@ public class rotatedSearch {
             if (arr[mid] == target) {
                 return mid;
             }
-
             // Check if the left side is sorted
             if (arr[l] <= arr[mid]) {
                 // Check if the target lies within the sorted left side
