@@ -18,7 +18,6 @@ public class FindPeakEle {
                 l = m + 1;
             }
         }
-
         return 1;
 
     }
