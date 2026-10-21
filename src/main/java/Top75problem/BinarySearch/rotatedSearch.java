@@ -11,7 +11,6 @@ public class rotatedSearch {
     private static int rotatedArray(int[] arr, int target) {
         int l = 0;
         int r = arr.length - 1;
-
         while (l <= r) { // Changed to <= to check single-element windows
             int mid = l + (r - l) / 2;
 
