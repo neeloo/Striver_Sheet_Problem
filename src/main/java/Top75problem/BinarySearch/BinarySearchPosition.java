@@ -6,7 +6,6 @@ public class BinarySearchPosition {
         int target = 10;
         System.out.println(search(nums, target));
     }
-
     private static int search(int[] nums, int target) {
         int l = 0;
         int r = nums.length - 1;
