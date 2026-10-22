@@ -2,7 +2,7 @@ package Top75problem.BinarySearch;
 
 public class BinarySearchPosition {
     public static void main(String[] args) {
-        int nums[] = {2, 4, 6, 8, 9, 10, 34};
+        int nums [] = {2, 4, 6, 8, 9, 10, 34};
         int target = 10;
         System.out.println(search(nums, target));
     }
