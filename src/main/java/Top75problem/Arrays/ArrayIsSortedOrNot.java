@@ -1,4 +1,4 @@
-package Top75problem;
+package Top75problem.Arrays;
 
 public class ArrayIsSortedOrNot {
     public static void main(String[] args) {
