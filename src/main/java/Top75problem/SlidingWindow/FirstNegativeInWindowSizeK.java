@@ -14,7 +14,6 @@ public class FirstNegativeInWindowSizeK {
         // element that encountered first in that window,
         // or it will be zero representing there was no negative element in that sub-array
         int[] ans = solve(arr, k);
-
         // print the result
         System.out.println(Arrays.toString(ans));
     }
