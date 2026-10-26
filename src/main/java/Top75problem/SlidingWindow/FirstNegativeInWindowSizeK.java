@@ -22,7 +22,6 @@ public class FirstNegativeInWindowSizeK {
         // given an array of length n, and sliding window size k
         // total sub-arrays possible are n - k + 1
         int[] ans = new int[arr.length - k + 1];
-
         // we are maintaining a list of queue (FIFO) structure to hold the q that are
         // encountered in the original array
         Queue<Integer> q = new LinkedList<>();
