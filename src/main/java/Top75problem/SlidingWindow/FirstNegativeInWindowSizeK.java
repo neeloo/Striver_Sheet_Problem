@@ -17,7 +17,6 @@ public class FirstNegativeInWindowSizeK {
         // print the result
         System.out.println(Arrays.toString(ans));
     }
-
     private static int[] solve(int[] arr, int k) {
         // given an array of length n, and sliding window size k
         // total sub-arrays possible are n - k + 1
