@@ -1,7 +1,6 @@
 package Top75problem.SlidingWindow;
 
 public class FindMaxSumOfAllSubArraysOfSizeK {
-
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 2, 9, 7, 1};
         int k = 3;
