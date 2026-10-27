@@ -3,7 +3,6 @@ package Top75problem.SlidingWindow;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
-
 public class FirstNegativeInWindowSizeK {
     public static void main(String[] args) {
         int[] arr = {12, -1, -2, 8, -16, 30, 16, 28};
