@@ -23,7 +23,6 @@ public class FirstNegativeInWindowSizeK {
         // we are maintaining a list of queue (FIFO) structure to hold the q that are
         // encountered in the original array
         Queue<Integer> q = new LinkedList<>();
-
         // left and right ptrs to move in the array
         int left = 0, right = 0;
 
