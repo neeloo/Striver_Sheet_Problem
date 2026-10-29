@@ -4,7 +4,6 @@ public class FindMaxSumOfAllSubArraysOfSizeK {
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 2, 9, 7, 1};
         int k = 3;
-
         int max = solve(arr, k);
         // ans should be 18 for sub-array {2, 9, 7} as this is the maximum sum for any sub-array for given size k
         System.out.println(max);
