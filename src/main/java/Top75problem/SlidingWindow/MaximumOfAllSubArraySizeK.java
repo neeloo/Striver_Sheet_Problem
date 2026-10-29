@@ -15,7 +15,6 @@ public class MaximumOfAllSubArraySizeK {
     }
 
     private static int[] solve(int[] arr, int k) {
-
         // maintain left and right to iterate over the window
         int left = 0, right = 0;
         // maintain a result array to store the ans
