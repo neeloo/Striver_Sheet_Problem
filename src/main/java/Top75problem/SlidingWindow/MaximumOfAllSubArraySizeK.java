@@ -13,7 +13,6 @@ public class MaximumOfAllSubArraySizeK {
         int[] ans = solve(arr, k);
         System.out.println(Arrays.toString(ans));
     }
-
     private static int[] solve(int[] arr, int k) {
         // maintain left and right to iterate over the window
         int left = 0, right = 0;
