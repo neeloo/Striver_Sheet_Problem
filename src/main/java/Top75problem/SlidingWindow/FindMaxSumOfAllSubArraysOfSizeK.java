@@ -8,7 +8,6 @@ public class FindMaxSumOfAllSubArraysOfSizeK {
         // ans should be 18 for sub-array {2, 9, 7} as this is the maximum sum for any sub-array for given size k
         System.out.println(max);
     }
-
     private static int solve(int[] arr, int k) {
 
         // pointers to maintain start and end of the sliding window
