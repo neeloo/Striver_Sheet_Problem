@@ -21,7 +21,6 @@ public class BestTimetoBuyandSellStock {
 //            }
 //        }
 //        return profit;
-
         int profit = 0;
         int minProfit = nums[0];
         for (int i = 1; i < nums.length ; i++) {
