@@ -1,7 +1,6 @@
 package Top75problem.Arrays;
 
 import java.util.HashMap;
-
 public class LongestSubarraySumK {
     public static void main(String[] args) {
         int[] arr = {10, 5, 2, 7, 1, 9};
@@ -32,7 +31,6 @@ public class LongestSubarraySumK {
             if (!map.containsKey(currentSum)) {
                 map.put(currentSum, i);
             }
-
         }
         return maxLength;
     }
