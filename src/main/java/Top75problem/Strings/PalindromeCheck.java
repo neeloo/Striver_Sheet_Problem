@@ -15,7 +15,6 @@ public class PalindromeCheck {
             l++;
             r--;
         }
-
         return true; // All characters matched
     }
 
