@@ -24,7 +24,6 @@ public class AnagramChecker {
         return true;
     }
 
-
     public static void main(String[] args) {
         System.out.println(areAnagrams("listen", "silent")); // Output: true
         System.out.println(areAnagrams("hello", "billion")); // Output: false
