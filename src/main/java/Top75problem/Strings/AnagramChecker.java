@@ -13,7 +13,6 @@ public class AnagramChecker {
         for (char ch : str1.toCharArray()) {
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-
         // Subtract frequencies using the second string
         for (char c : str2.toCharArray()) {
             // If a character doesn't exist or frequency drops below 0, it's not a match
