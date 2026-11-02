@@ -1,7 +1,6 @@
 package Top75problem.Strings;
 import java.util.HashMap;
 import java.util.Map;
-
 public class AnagramChecker {
     public static boolean areAnagrams(String str1, String str2) {
         // If lengths match, they cannot have the same frequencies
