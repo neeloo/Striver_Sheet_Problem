@@ -11,7 +11,6 @@ public class ReverseWords {
         // 2. Iterate backwards through the words array
         for (int i = words.length - 1; i >= 0; i--) {
             reversed.append(words[i]);
-            
             // Append a space between words, but not after the last word
             if (i > 0) {
                 reversed.append(" ");
