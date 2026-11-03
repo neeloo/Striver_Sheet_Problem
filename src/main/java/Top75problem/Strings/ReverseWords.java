@@ -20,7 +20,6 @@ public class ReverseWords {
         }
         return reversed.toString();
     }
-
     public static void main(String[] args) {
         String sentence1 = "the sky is blue";
         System.out.println("Result: \"" + reverseWords(sentence1) + "\"");
