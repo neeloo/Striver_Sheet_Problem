@@ -20,7 +20,6 @@ public class CommonPrefix {
         }
         return base;
     }
-
     public static void main(String[] args) {
         String[] words1 = {"flower", "flow", "flight"};
         System.out.println("Longest Prefix: \"" + longestCommonPrefix(words1) + "\""); 
