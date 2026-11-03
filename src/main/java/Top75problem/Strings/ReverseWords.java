@@ -18,7 +18,6 @@ public class ReverseWords {
                 reversed.append(" ");
             }
         }
-
         return reversed.toString();
     }
 
