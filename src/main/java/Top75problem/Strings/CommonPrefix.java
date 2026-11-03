@@ -1,5 +1,4 @@
 package Top75problem.Strings;
-
 public class CommonPrefix {
     public static String longestCommonPrefix(String[] strs) {
         // Return an empty string if the array is null or empty
