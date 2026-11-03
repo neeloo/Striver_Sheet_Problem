@@ -8,7 +8,6 @@ public class ReverseWords {
         // 1. Trim leading/trailing spaces and split by one or more spaces "\\s+"
         String[] words = s.trim().split("\\s+");
         StringBuilder reversed = new StringBuilder();
-
         // 2. Iterate backwards through the words array
         for (int i = words.length - 1; i >= 0; i--) {
             reversed.append(words[i]);
