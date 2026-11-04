@@ -6,7 +6,6 @@ public class StringCompression {
         }
         StringBuilder compressed = new StringBuilder();
         int count = 1;
-
         for (int i = 0; i < s.length(); i++) {
             // If the next character is the same, increment the counter
             if (i + 1 < s.length() && s.charAt(i) == s.charAt(i + 1)) {
