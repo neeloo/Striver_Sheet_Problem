@@ -17,7 +17,6 @@ public class LongestPalindrome {
         }
         return A.substring(len, len + maxlen);
     }
-
     public static void expand(String s, int a, int b) {
         while (a >= 0 && b < s.length() && s.charAt(a) == s.charAt(b)) {
             a--;
