@@ -3,7 +3,6 @@ package Top75problem.Strings;
 public class LongestPalindrome {
     static int maxlen = 0;
     static int len = 0;
-
     public static void main(String[] args) {
         String s = "babad";
         System.out.println(longestPalindrome(s));
