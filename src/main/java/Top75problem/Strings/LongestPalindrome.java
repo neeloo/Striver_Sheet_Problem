@@ -22,7 +22,6 @@ public class LongestPalindrome {
             a--;
             b++;
         }
-
         // Length of palindrome = b - a - 1
         if (b - a - 1 > maxlen) {
             maxlen = b - a - 1;
