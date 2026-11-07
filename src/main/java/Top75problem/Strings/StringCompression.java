@@ -1,5 +1,6 @@
 package Top75problem.Strings;
 public class StringCompression {
+
     public static String compress(String s) {
         if (s == null || s.isEmpty()) {
             return "";
