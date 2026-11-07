@@ -24,4 +24,5 @@ public class StringCompression {
         System.out.println(compress("aabcccccaaa")); // Output: "a2b1c5a3"
         System.out.println(compress("abcd"));        // Output: "abcd" (returns original because compression takes more space)
     }
+
 }
