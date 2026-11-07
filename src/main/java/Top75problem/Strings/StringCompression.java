@@ -20,7 +20,6 @@ public class StringCompression {
         // Optional: Return original string if compression doesn't save space
         return compressed.length() < s.length() ? compressed.toString() : s;
     }
-
     public static void main(String[] args) {
         System.out.println(compress("aabcccccaaa")); // Output: "a2b1c5a3"
         System.out.println(compress("abcd"));        // Output: "abcd" (returns original because compression takes more space)
