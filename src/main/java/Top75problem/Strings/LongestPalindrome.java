@@ -8,6 +8,7 @@ public class LongestPalindrome {
         String s = "babad";
         System.out.println(longestPalindrome(s));
     }
+
     public static String longestPalindrome(String A) {
         if (A.length() < 2) {
             return A;
