@@ -1,4 +1,5 @@
 package Top75problem.Strings;
+
 public class LongestPalindrome {
     static int maxlen = 0;
     static int len = 0;
