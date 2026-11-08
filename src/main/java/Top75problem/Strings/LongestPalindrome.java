@@ -27,4 +27,5 @@ public class LongestPalindrome {
             len = a + 1;
         }
     }
+
 }
