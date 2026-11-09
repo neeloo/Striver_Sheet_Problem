@@ -6,6 +6,7 @@ public class StringCompression {
         if (s == null || s.isEmpty()) {
             return "";
         }
+
         StringBuilder compressed = new StringBuilder();
         int count = 1;
         for (int i = 0; i < s.length(); i++) {
