@@ -19,6 +19,7 @@ public class StringCompression {
                 count = 1; // Reset count for the next unique character
             }
         }
+
         // Optional: Return original string if compression doesn't save space
         return compressed.length() < s.length() ? compressed.toString() : s;
     }
