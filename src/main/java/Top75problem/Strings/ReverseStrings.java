@@ -6,6 +6,7 @@ public class ReverseStrings {
         String s = "hello";
         System.out.println(reverseString(s)); // Output: olleh
     }
+
     public static String reverseString(String str) {
         if (str == null || str.length() <= 1) {return str;}
         // Convert the immutable string to a mutable character array
