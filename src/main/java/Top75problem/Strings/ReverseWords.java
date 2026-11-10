@@ -24,6 +24,7 @@ public class ReverseWords {
         System.out.println("Result: \"" + reverseWords(sentence1) + "\"");
         // Output: "blue is sky the"
 
+
         String sentence2 = "  hello   world  ";
         System.out.println("Result: \"" + reverseWords(sentence2) + "\"");
         // Output: "world hello"
