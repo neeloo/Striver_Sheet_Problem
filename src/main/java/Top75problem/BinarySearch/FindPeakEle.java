@@ -8,6 +8,7 @@ public class FindPeakEle {
     }
 
     public static int findPeakElement(int[] arr) {
+
         int n = arr.length;
         int l = 0;
         int r = n - 1;
