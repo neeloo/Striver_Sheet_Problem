@@ -6,6 +6,7 @@ public class FindPeakEle {
         int arr[]={1,2,3,1};
         System.out.println(findPeakElement(arr));
     }
+
     public static int findPeakElement(int[] arr) {
         int n = arr.length;
         int l = 0;
