@@ -1,6 +1,7 @@
 package Top75problem.BinarySearch;
 
 public class FindPeakEle {
+
     public static void main(String[] args) {
         int arr[]={1,2,3,1};
         System.out.println(findPeakElement(arr));
