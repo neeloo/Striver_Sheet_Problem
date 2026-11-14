@@ -1,6 +1,5 @@
 package Top75problem.LinkedList;
 public class SortLinkedList {
-
     // Definition for singly-linked list node
     public static class ListNode {
         int val;
