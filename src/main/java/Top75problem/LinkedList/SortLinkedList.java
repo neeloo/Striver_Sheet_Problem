@@ -17,7 +17,6 @@ public class SortLinkedList {
             this.next = next; 
         }
     }
-
     // O(n log n) Time, O(log n) Stack Space - Merge Sort Algorithm
     public static ListNode sortList(ListNode head) {
         // Base case: list is empty or has only a single node
