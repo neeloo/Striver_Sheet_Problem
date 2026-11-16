@@ -84,7 +84,6 @@ public class SortLinkedList {
         printList(head);
 
         ListNode sortedHead = sortList(head);
-        
         System.out.print("Sorted List:   ");
         printList(sortedHead);
     }
