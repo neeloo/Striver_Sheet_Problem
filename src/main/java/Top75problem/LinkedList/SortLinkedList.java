@@ -22,7 +22,6 @@ public class SortLinkedList {
         if (head == null || head.next == null) {
             return head;
         }
-        
         // 1. Split the list into two halves
         ListNode prev = null;
         ListNode slow = head;
