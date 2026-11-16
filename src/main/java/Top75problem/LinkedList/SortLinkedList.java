@@ -74,7 +74,6 @@ public class SortLinkedList {
         }
         System.out.println();
     }
-
     // Main method to run and verify the implementation
     public static void main(String[] args) {
         // Unsorted input list: 4 -> 2 -> 1 -> 3
