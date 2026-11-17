@@ -5,7 +5,6 @@ public class SortLinkedList {
         int val;
         ListNode next;
         ListNode() {}
-        
         ListNode(int val) { 
             this.val = val; 
         }
