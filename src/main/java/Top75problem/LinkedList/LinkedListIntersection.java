@@ -46,7 +46,6 @@ public class LinkedListIntersection {
         headB.next = new ListNode(6);
         headB.next.next = new ListNode(1);
         headB.next.next.next = intersectNode;
-
         // Find intersection
         ListNode result = getIntersectionNode(headA, headB);
 
