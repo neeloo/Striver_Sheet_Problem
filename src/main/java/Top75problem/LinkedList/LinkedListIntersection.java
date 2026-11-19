@@ -11,7 +11,6 @@ public class LinkedListIntersection {
             this.next = null;
         }
     }
-
     // O(m + n) Time, O(1) Space - Two-Pointer Approach
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
