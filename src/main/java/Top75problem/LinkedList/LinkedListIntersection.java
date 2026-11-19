@@ -18,7 +18,6 @@ public class LinkedListIntersection {
         }
         ListNode pA = headA;
         ListNode pB = headB;
-
         // Loop continues until the pointers point to the same node
         while (pA != pB) {
             // Move to next node, or redirect to the head of the opposite list
