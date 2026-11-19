@@ -16,7 +16,6 @@ public class LinkedListIntersection {
         if (headA == null || headB == null) {
             return null;
         }
-
         ListNode pA = headA;
         ListNode pB = headB;
 
