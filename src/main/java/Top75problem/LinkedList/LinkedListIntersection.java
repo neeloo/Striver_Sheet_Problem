@@ -55,6 +55,5 @@ public class LinkedListIntersection {
             System.out.println("No intersection found.");
         }
 
-
     }
 }
