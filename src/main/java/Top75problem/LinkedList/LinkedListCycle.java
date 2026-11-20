@@ -31,7 +31,6 @@ public class LinkedListCycle {
                 return true;
             }
         }
-        
         // Fast pointer reached the end of the list, so no cycle exists
         return false;
     }
