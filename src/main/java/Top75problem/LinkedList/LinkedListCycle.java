@@ -34,7 +34,6 @@ public class LinkedListCycle {
         // Fast pointer reached the end of the list, so no cycle exists
         return false;
     }
-
     // Main method to run and verify the implementation
     public static void main(String[] args) {
         // Constructing a sample list: 3 -> 2 -> 0 -> -4
