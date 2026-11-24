@@ -23,7 +23,6 @@ public class LinkedListCycle {
         while (fast != null && fast.next != null) {
             slow = slow.next;         // Moves 1 step
             fast = fast.next.next;    // Moves 2 steps
-            
             // If they meet, a cycle exists
             if (slow == fast) {
                 return true;
