@@ -47,7 +47,6 @@ public class LinkedListCycle {
 
         // Creating a cycle: -4 points back to 2
         node4.next = node2;
-
         // Test Case 2: With cycle
         System.out.println("Has cycle? (Expected true): " + hasCycle(head));
     }
