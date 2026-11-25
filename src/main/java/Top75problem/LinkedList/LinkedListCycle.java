@@ -42,7 +42,6 @@ public class LinkedListCycle {
         head.next = node2;
         node2.next = node3;
         node3.next = node4;
-        
         // Test Case 1: No cycle
         System.out.println("Has cycle? (Expected false): " + hasCycle(head));
 
