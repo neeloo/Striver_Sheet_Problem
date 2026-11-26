@@ -7,7 +7,6 @@ public class LinkedListReversal {
         ListNode next;
         
         ListNode() {}
-        
         ListNode(int val) { 
             this.val = val; 
         }
