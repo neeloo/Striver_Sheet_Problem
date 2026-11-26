@@ -63,7 +63,6 @@ public class LinkedListReversal {
         
         System.out.print("Original List: ");
         printList(head);
-
         // Test Iterative Reversal
         ListNode iterativeReversed = reverseListIterative(head);
         System.out.print("Iteratively Reversed: ");
