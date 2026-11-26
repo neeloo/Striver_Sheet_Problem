@@ -17,7 +17,6 @@ public class LinkedListReversal {
             this.next = next; 
         }
     }
-
     // 1. Iterative Approach - O(n) Time, O(1) Space
     public static ListNode reverseListIterative(ListNode head) {
         ListNode prev = null;
