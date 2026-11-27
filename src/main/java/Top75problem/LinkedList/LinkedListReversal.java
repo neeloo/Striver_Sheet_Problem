@@ -18,7 +18,6 @@ public class LinkedListReversal {
     public static ListNode reverseListIterative(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
-        
         while (curr != null) {
             ListNode nextTemp = curr.next; // Store the next node
             curr.next = prev;              // Reverse the pointer
